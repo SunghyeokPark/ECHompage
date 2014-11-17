@@ -1,0 +1,71 @@
+@CHARSET "UTF-8";
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+
+
+/****************************************************************
+
+							Navigator
+
+ ****************************************************************/
+ 
+ /* Bootstrap Overriding */
+.navbar-inverse {
+	/* background-color: rgb(82,255,141); */
+	background-color: rgb(90,215,133);
+	border-color: #ffffff;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #000000;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border-color: #ffffff;
+}
+
+/* Custom */
+
+.btn-white{
+	border-color: #ffffff;
+}
+
+.btn-white:hover{
+	/* border-color: #ffffff; */
+}
+
+
+
+/****************************************************************
+
+							Footer
+
+ ****************************************************************/
+ 
+ .footer {
+  	position: absolute;
+	bottom: 0;
+	width: 100%;
+	min-height:5px;
+	padding: 20px;
+ 	background-color: #000000;
+ 	text-align: center;
+}
