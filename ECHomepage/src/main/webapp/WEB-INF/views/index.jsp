@@ -7,6 +7,7 @@
 <title>Endless Creation</title>
 <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 <link href="css/common-style.css" rel="stylesheet" media="screen">
+<script src="js/jquery-2.1.1.min.js"></script>
 </head>
 <body>
 	<jsp:include page="header.jsp">
@@ -14,9 +15,9 @@
 	</jsp:include>
 
 
+
 	<jsp:include page="footer.jsp" />
 	
-	<script src="js/jquery-2.1.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>

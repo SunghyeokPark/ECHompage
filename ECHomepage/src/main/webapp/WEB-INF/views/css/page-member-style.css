@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: rgb(236,188,94);
+}
+ 
+ .page-title {
+ 	background-color: rgb(217,165,66);
+ }
+ 
+ .page-title span {
+ 	color: #fff;
+ }
+ 
+ 
+ .page-board-list {
+ 	color: #fff;
+ }
+ 
+ .page-board-list li a{
+ 	color: #fff;
+ }
+ 
+ .page-board-list li.active a{
+ 	color: #000;
+ 	background-color: #fff;
+ }
+ 
+ .page-board-list li a:HOVER, .page-board-list li a:FOCUS{
+ 	background-color: rgb(223,176,84);
+ }
+ 
+ .page-board-list li.active a:HOVER, .page-board-list li a:FOCUS{
+ 	background-color: #fff;
+ }
+ 
+ .list-bullet {
+ 	color: rgb(217,165,66);
+ }

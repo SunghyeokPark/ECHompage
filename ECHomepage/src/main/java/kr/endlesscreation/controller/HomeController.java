@@ -22,22 +22,28 @@ public class HomeController {
 	/**
 	 * Simply selects the home view to render by returning its name.
 	 */
-//	@RequestMapping(value = "/", method = RequestMethod.GET)
-//	public String home(Locale locale, Model model) {
-//		logger.info("Welcome home! The client locale is {}.", locale);
-//		
-//		Date date = new Date();
-//		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
-//		
-//		String formattedDate = dateFormat.format(date);
-//		
-//		model.addAttribute("serverTime", formattedDate );
-//		
-//		return "home";
-//	}
+
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(){
 		return "index";
+	}
+	
+	// 컨트롤러 만들면 옮길것임.
+	@RequestMapping(value = "/board/boardIndex.do", method = RequestMethod.GET)
+	public String boardIndex(){
+		return "board/boardIndex";
+	}
+	@RequestMapping(value = "/study/studyIndex.do", method = RequestMethod.GET)
+	public String studyIndex(){
+		return "study/studyIndex";
+	}
+	@RequestMapping(value = "/member/memberIndex.do", method = RequestMethod.GET)
+	public String memberIndex(){
+		return "member/memberIndex";
+	}
+	@RequestMapping(value = "/admin/adminIndex.do", method = RequestMethod.GET)
+	public String adminIndex(){
+		return "admin/adminIndex";
 	}
 }
