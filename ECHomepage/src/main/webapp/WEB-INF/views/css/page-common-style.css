@@ -1,10 +1,6 @@
 @CHARSET "UTF-8";
 
 
-body {
-	margin-top: 0px;
-	background-color: rgb(60,64,78);
-}
 
 
 /****************************************************************
@@ -14,6 +10,10 @@ body {
 *****************************************************************/
  
 @media (max-width: 991px) {
+	body {
+		margin-top: 0px;
+		background-color: #fff;
+	}
 	 .left-content {
 	 	min-height: none;
 	 	padding-top: 50px;
@@ -22,13 +22,27 @@ body {
 	 }
 	 
 	 .right-content {
-	 	min-height: 100%;
+	 	margin-top: -8px;
 	 	padding-top: 30px;
 	 	padding-bottom: 30px;
 	 	background-color: #fff;
 	 }
+	 
+	 .page-board-list li a{
+	 	color: #fff;
+	 	font-size: 0.85em;
+	 	display: block;
+	 	padding: 10px 15px;
+	 	background-color: rgb(60,64,78);
+ 	}
+	 
 }
 @media (min-width: 992px) {
+	body {
+		margin-top: 0px;
+		background-color: rgb(60,64,78);
+	}
+	
 	 .left-content {
 	 	min-height: 100%;
 	 	padding-top: 50px;
@@ -43,21 +57,21 @@ body {
 	 	padding-bottom: 30px;
 	 	background-color: #fff;
 	 }
+	 
+	 .page-board-list li a{
+	 	color: #fff;
+	 	font-size: 0.85em;
+	 	display: block;
+	 	padding: 10px 15px;
+	 }
 }
- 
- .left-content hr {
- 	border-top: 1px solid #fff;
- 	margin-top: -3px;
- 	margin-bottom: 0px;
- }
-
  
  .page-title {
  	background-color: rgb(43,45,56);
  	padding-left: 25px;
- 	padding-bottom: 13px;
- 	padding-top: 13px;
- 	margin-bottom: 10px;
+ 	padding-bottom: 10px;
+ 	padding-top: 10px;
+ 	margin-bottom: 1px;
  }
  
  .page-title a {
@@ -71,14 +85,6 @@ body {
  	color: #fff;
  	list-style-type: none;
  	-webkit-padding-start: 0px;
- }
- 
- .page-board-list li a{
- 	color: #fff;
- 	font-size: 0.85em;
- 	display: block;
- 	padding: 10px 15px;
- 	margin-bottom: 5px;
  }
  
  .page-board-list li.active a{

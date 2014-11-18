@@ -32,7 +32,6 @@
 					</ul>
 				</div>
 				
-				<hr class="hidden-md hidden-lg"/>
 			</div>
 			
 			<div class="col-md-10 right-content">
