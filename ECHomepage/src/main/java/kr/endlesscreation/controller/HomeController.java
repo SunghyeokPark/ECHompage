@@ -34,6 +34,14 @@ public class HomeController {
 	public String boardIndex(){
 		return "board/boardIndex";
 	}
+	@RequestMapping(value = "/board/board.do", method = RequestMethod.GET)
+	public String board(){
+		return "board/board";
+	}
+	@RequestMapping(value = "/board/boardWrite.do", method = RequestMethod.GET)
+	public String boardWrite(){
+		return "board/boardWrite";
+	}
 	@RequestMapping(value = "/study/studyIndex.do", method = RequestMethod.GET)
 	public String studyIndex(){
 		return "study/studyIndex";
