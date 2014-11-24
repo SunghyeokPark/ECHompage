@@ -6,7 +6,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link href="../css/bootstrap.min.css" rel="stylesheet" media="screen">
 <link href="../css/common-style.css" rel="stylesheet" media="screen">
-<link href="../css/page-common-style.css" rel="stylesheet" media="screen">
+<link href="../css/page-common-style.css" rel="stylesheet"
+	media="screen">
 <link href="../css/page-board-style.css" rel="stylesheet" media="screen">
 <script src="../js/jquery-2.1.1.min.js"></script>
 <title>수비니가만들었지롱!</title>
@@ -46,7 +47,8 @@
 					<form class="form-inline" role="form">
 						<div class="form-group">
 							<div class=" col-lg-12">
-								<button type="submit" class="btn btn-default">글작성</button><br><br>
+								<button type="submit" class="btn btn-default">글작성</button>
+								<br> <br>
 							</div>
 						</div>
 					</form>
@@ -59,8 +61,8 @@
 
 								<thead>
 									<tr width=50>
-								
-         
+
+
 
 										<th class="col-sm-0.5">No</th>
 										<th class="col-sm-10">Title</th>
@@ -72,7 +74,7 @@
 								</thead>
 								<tr>
 									<td>10</td>
-									<td><a href="#" style="color:#000;">오늘도 꿈을 꿨어...^^</a></td>
+									<td><a href="#" style="color: #000;">오늘도 꿈을 꿨어...^^</a></td>
 									<td>니생각</td>
 									<td>2003.12.31.</td>
 									<td>10</td>

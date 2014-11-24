@@ -20,7 +20,6 @@
 				<div class="page-title">
 					<a href="boardIndex.do"><span>게시판</span></a>
 				</div>
-
 				<div class="page-board-list-wrapper">
 					<ul class="page-board-list">
 						<li><a href="#"><span
@@ -36,8 +35,16 @@
 				</div>
 
 			</div>
-			
-			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+	
+	</div>
 			
 			
 			

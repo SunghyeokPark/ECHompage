@@ -1,0 +1,7 @@
+@CHARSET "EUC-KR";
+.pagination {
+display: inline-block;
+padding-left:250px;
+margin: 20px 0;
+border-radius: 4px;
+}
