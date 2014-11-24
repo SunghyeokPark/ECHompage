@@ -108,6 +108,39 @@ body {
 
 
 
+/****************************************************************
+
+							Content
+
+*****************************************************************/
+
+.empty-content {
+	margin-bottom: 50px;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-center {
+	text-align: center;
+	
+}
+
+.padding-zero {
+	padding: 0;
+}
+
+.ellipse {
+	width: 100%;
+	white-space: nowrap;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+}
 
 /****************************************************************
 

@@ -1,0 +1,194 @@
+@CHARSET "UTF-8";
+
+body {
+	margin-top: 50px;
+}
+
+
+.index-title {
+	text-align: center;
+}
+
+.index-title h1{
+	font-size: 5.0em;
+}
+
+.logo-content {
+}
+
+.logo-content h1 a {
+	color: black;
+	text-decoration: none;
+}
+
+.logo-content h3 a {
+	color: white;
+	text-decoration: none;
+}
+
+.index-logo {
+	margin-top: 30px;
+	width: 200px;
+}
+
+@media (max-width: 767px) {
+	.intro-btn {
+		background-image: url(../img/intro_btn_bg.png);
+		background-size: cover;
+		height: 160px;
+		padding: 20px;
+	}	
+}
+@media (min-width: 768px) {
+	.intro-btn {
+		background-image: url(../img/intro_btn_bg.png);
+		background-size: cover;
+		height: 227px;
+		padding: 20px;
+	}	
+}
+
+.intro-btn h3 {
+	color: white;
+}
+
+.notice-content {
+	background-color: rgb(245, 110, 110);
+	padding: 10px 20px;
+}
+
+.notice-content h3 {
+	color: white;
+}
+
+.notice-content h3 a {
+	color: white;
+	text-decoration: none;
+}
+
+.notice-list {
+	list-style-type: none;
+	color: #fff;
+	padding: 0px;
+	margin: 0;
+	
+	width: 100%;
+	
+}
+
+.notice-list li {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #fff;
+}
+
+.notice-list li:last-child {
+	border-bottom: 0px;
+}
+
+.notice-list li h4 {
+	font-size: 1.0em;
+	margin-bottom: 3px;
+	margin-top: 3px;
+}
+
+.notice-list li h4 a {
+	color: #fff;
+}
+
+.notice-list li p {
+	font-size: 0.8em;
+	margin: 0px;
+}
+
+.notice-date {
+	margin-right: 15px;
+}
+
+.etc-content {
+	
+}
+
+@media (max-width: 767px) {
+	.etc-btn {
+		height: 150px;
+	}
+}
+@media (min-width: 768px) {
+	.etc-btn {
+		height: 124px;
+	}
+	.carousel-caption {
+		padding-bottom: 140px;
+	}
+}
+@media (min-width: 992px) {
+	.etc-btn {
+		height: 133.5px;
+	}
+	.carousel-caption {
+		padding-bottom: 160px;
+	}
+}
+@media (min-width: 1200px) {
+	.etc-btn {
+		height: 161px;
+	}
+	.carousel-caption {
+		padding-bottom: 200px;
+	}
+}
+
+.etc-btn h3 a {
+	color: black;
+	text-decoration: none;
+}
+
+.etc-btn-yellow {
+	background-color: rgb(255,203,63);
+	color: white;
+}
+
+.etc-btn-yellow h3 a {
+	color: white;
+	text-decoration: none;
+}
+
+.bottom-content {
+	background-color: rgb(129,84,197);
+	padding: 10px;
+}
+
+.bottom-content h4 {
+	color: white;
+}
+
+.lastest-list {
+	list-style-type: none;
+	color: #fff;
+	padding: 0px;
+	white-space: nowrap;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+}
+
+.lastest-list li {
+	/* margin-top: 20px;
+	margin-bottom: 20px; */
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #fff;
+}
+
+.lastest-list li:last-child {
+	border-bottom: 0px;
+}
+
+.lastest-list li p {
+	font-size: 0.9em;
+	margin: 0px;
+}
+
+.lastest-list li p a {
+	color: #fff;
+}
