@@ -1,10 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>사진기록 폴더다</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="../css/bootstrap.min.css" rel="stylesheet" media="screen">
 <link href="../css/common-style.css" rel="stylesheet" media="screen">
 <link href="../css/page-common-style.css" rel="stylesheet"
@@ -23,8 +24,14 @@
 				<div class="page-title">
 					<a href="boardIndex.do"><span>사진기록</span></a>
 				</div>
-
-
+				
+				
+				<div class="page-board-list-wrapper">
+					<ul class="page-board-list">
+						<li class="active"><a href="#"><span class="glyphicon glyphicon-chevron-right list-bullet"></span> 2014</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-chevron-right list-bullet"></span> 2013</a></li>
+					</ul>
+				</div>
 
 			</div>
 			<div class="col-md-10 right-content">
@@ -40,130 +47,128 @@
 				</div>
 				
 				
-				<div class="col-md-10 right-content">
 
-					<div class="row">
-						<div class="col-sm-6 col-md-3">
-							<a href="#" class="thumbnail"> <img
-								data-src="holder.js/100%x180"
-								src="../img/test1.jpg"
-								alt="Generic placeholder thumbnail" src="data:image/png;base64,">
-							</a>
-						</div>
-						<div class="col-sm-6 col-md-3">
-							<a href="#" class="thumbnail"> <img
-								data-src="holder.js/100%x180"
-								src="../img/test1.jpg"
-								alt="Generic placeholder thumbnail" src="data:image/png;base64,">
-							</a>
-						</div>
-						<div class="col-sm-6 col-md-3">
-							<a href="#" class="thumbnail"> 
-							<img
-								data-src="holder.js/100%x180"
-								src="../img/test1.jpg"
-								alt="Generic placeholder thumbnail" src="data:image/png;base64,">
-							</a>
-						</div>
-						<div class="col-sm-6 col-md-3">
-							<a href="#" class="thumbnail"> <img
-								data-src="holder.js/100%x180"
-								src="../img/test1.jpg"
-								alt="Generic placeholder thumbnail" src="data:image/png;base64,">
-							</a>
-						</div>
-						
-						<div class="col-sm-6 col-md-3">
-							<a href="#" class="thumbnail"> <img
-								data-src="holder.js/100%x180"
-								src="../img/test1.jpg"
-								alt="Generic placeholder thumbnail" src="data:image/png;base64,">
-							</a>
-						</div>
-						<div class="col-sm-6 col-md-3">
-							<a href="#" class="thumbnail"> <img
-								data-src="holder.js/100%x180"
-								src="../img/test1.jpg"
-								alt="Generic placeholder thumbnail" src="data:image/png;base64,">
-							</a>
-						</div>
-						<div class="col-sm-6 col-md-3">
-							<a href="#" class="thumbnail"> <img
-								data-src="holder.js/100%x180"
-								src="../img/test1.jpg"
-								alt="Generic placeholder thumbnail" src="data:image/png;base64,">
-							</a>
-						</div>
-						<div class="col-sm-6 col-md-3">
-							<a href="#" class="thumbnail"> <img
-								data-src="holder.js/100%x180"
-								src="../img/test1.jpg"
-								alt="Generic placeholder thumbnail" src="data:image/png;base64,">
-							</a>
-						</div>
-						
-						<div class="col-sm-6 col-md-3">
-							<a href="#" class="thumbnail"> <img
-								data-src="holder.js/100%x180"
-								src="../img/test1.jpg"
-								alt="Generic placeholder thumbnail" src="data:image/png;base64,">
-							</a>
-						</div>
-						<div class="col-sm-6 col-md-3">
-							<a href="#" class="thumbnail"> <img
-								data-src="holder.js/100%x180"
-								src="../img/test1.jpg"
-								alt="Generic placeholder thumbnail" src="data:image/png;base64,">
-							</a>
-						</div>
-						<div class="col-sm-6 col-md-3">
-							<a href="#" class="thumbnail"> <img
-								data-src="holder.js/100%x180"
-								src="../img/test1.jpg"
-								alt="Generic placeholder thumbnail" src="data:image/png;base64,">
-							</a>
-						</div>
-						<div class="col-sm-6 col-md-3">
-							<a href="#" class="thumbnail"> <img
-								data-src="holder.js/100%x180"
-								src="../img/test1.jpg"
-								alt="Generic placeholder thumbnail" src="data:image/png;base64,">
-							</a>
-						</div>
-						
-						<div class="col-sm-6 col-md-3">
-							<a href="#" class="thumbnail"> <img
-								data-src="holder.js/100%x180"
-								src="../img/test1.jpg"
-								alt="Generic placeholder thumbnail" src="data:image/png;base64,">
-							</a>
-						</div>
-						<div class="col-sm-6 col-md-3">
-							<a href="#" class="thumbnail"> <img
-								data-src="holder.js/100%x180"
-								src="../img/test1.jpg"
-								alt="Generic placeholder thumbnail" src="data:image/png;base64,">
-							</a>
-						</div>
-						<div class="col-sm-6 col-md-3">
-							<a href="#" class="thumbnail"> <img
-								data-src="holder.js/100%x180"
-								src="../img/test1.jpg"
-								alt="Generic placeholder thumbnail" src="data:image/png;base64,">
-							</a>
-						</div>
-						<div class="col-sm-6 col-md-3">
-							<a href="#" class="thumbnail"> <img
-								data-src="holder.js/100%x180"
-								src="../img/test1.jpg"
-								alt="Generic placeholder thumbnail" src="data:image/png;base64,">
-							</a>
-						</div>
+				<div class="row">
+					<div class="col-sm-6 col-md-3">
+						<a href="photo.do" class="thumbnail"> <img
+							data-src="holder.js/100%x180"
+							src="../img/test1.jpg"
+							alt="Generic placeholder thumbnail" src="data:image/png;base64,">
+						</a>
 					</div>
-
-
-
+					<div class="col-sm-6 col-md-3">
+						<a href="#" class="thumbnail"> <img
+							data-src="holder.js/100%x180"
+							src="../img/test1.jpg"
+							alt="Generic placeholder thumbnail" src="data:image/png;base64,">
+						</a>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<a href="#" class="thumbnail"> 
+						<img
+							data-src="holder.js/100%x180"
+							src="../img/test1.jpg"
+							alt="Generic placeholder thumbnail" src="data:image/png;base64,">
+						</a>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<a href="#" class="thumbnail"> <img
+							data-src="holder.js/100%x180"
+							src="../img/test1.jpg"
+							alt="Generic placeholder thumbnail" src="data:image/png;base64,">
+						</a>
+					</div>
+					
+					<div class="col-sm-6 col-md-3">
+						<a href="#" class="thumbnail"> <img
+							data-src="holder.js/100%x180"
+							src="../img/test1.jpg"
+							alt="Generic placeholder thumbnail" src="data:image/png;base64,">
+						</a>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<a href="#" class="thumbnail"> <img
+							data-src="holder.js/100%x180"
+							src="../img/test1.jpg"
+							alt="Generic placeholder thumbnail" src="data:image/png;base64,">
+						</a>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<a href="#" class="thumbnail"> <img
+							data-src="holder.js/100%x180"
+							src="../img/test1.jpg"
+							alt="Generic placeholder thumbnail" src="data:image/png;base64,">
+						</a>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<a href="#" class="thumbnail"> <img
+							data-src="holder.js/100%x180"
+							src="../img/test1.jpg"
+							alt="Generic placeholder thumbnail" src="data:image/png;base64,">
+						</a>
+					</div>
+					
+					<div class="col-sm-6 col-md-3">
+						<a href="#" class="thumbnail"> <img
+							data-src="holder.js/100%x180"
+							src="../img/test1.jpg"
+							alt="Generic placeholder thumbnail" src="data:image/png;base64,">
+						</a>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<a href="#" class="thumbnail"> <img
+							data-src="holder.js/100%x180"
+							src="../img/test1.jpg"
+							alt="Generic placeholder thumbnail" src="data:image/png;base64,">
+						</a>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<a href="#" class="thumbnail"> <img
+							data-src="holder.js/100%x180"
+							src="../img/test1.jpg"
+							alt="Generic placeholder thumbnail" src="data:image/png;base64,">
+						</a>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<a href="#" class="thumbnail"> <img
+							data-src="holder.js/100%x180"
+							src="../img/test1.jpg"
+							alt="Generic placeholder thumbnail" src="data:image/png;base64,">
+						</a>
+					</div>
+					
+					<div class="col-sm-6 col-md-3">
+						<a href="#" class="thumbnail"> <img
+							data-src="holder.js/100%x180"
+							src="../img/test1.jpg"
+							alt="Generic placeholder thumbnail" src="data:image/png;base64,">
+						</a>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<a href="#" class="thumbnail"> <img
+							data-src="holder.js/100%x180"
+							src="../img/test1.jpg"
+							alt="Generic placeholder thumbnail" src="data:image/png;base64,">
+						</a>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<a href="#" class="thumbnail"> <img
+							data-src="holder.js/100%x180"
+							src="../img/test1.jpg"
+							alt="Generic placeholder thumbnail" src="data:image/png;base64,">
+						</a>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<a href="#" class="thumbnail"> <img
+							data-src="holder.js/100%x180"
+							src="../img/test1.jpg"
+							alt="Generic placeholder thumbnail" src="data:image/png;base64,">
+						</a>
+					</div>
 				</div>
+
+
+
 				<!--검색창  -->
 				<div class="row">
 					<div class="col-lg-6">
@@ -213,7 +218,7 @@
 				</ul>
 			</div>
 		</div>
-
+	</div>
 
 		<jsp:include page="../footer.jsp" />
 		<script src="../js/bootstrap.min.js"></script>

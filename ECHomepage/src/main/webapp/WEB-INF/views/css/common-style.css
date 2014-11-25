@@ -1,15 +1,18 @@
 @CHARSET "UTF-8";
 
 
-html {
+html,body {
 	position: relative;
-	min-height: 100%;
+	margin: 0; 
+	padding: 0;
+	min-height: 100vh;
 }
 
 
 body {
-	margin-top: 70px;
-	margin-bottom: 70px;
+	/* margin-top: 70px; */
+	padding-bottom: 70px;
+	/* margin-bottom: 70px; */
 }
 
 
@@ -118,6 +121,10 @@ body {
 	margin-bottom: 50px;
 }
 
+.max-height {
+	height: 100%;
+}
+
 .text-right {
 	text-align: right;
 }
@@ -128,7 +135,6 @@ body {
 
 .text-center {
 	text-align: center;
-	
 }
 
 .padding-zero {
@@ -152,7 +158,8 @@ body {
   	position: absolute;
 	bottom: 0;
 	width: 100%;
-	min-height:5px;
+	/* min-height:5px; */
+	height: 70px;
 	padding: 20px;
  	background-color: #000000;
  	text-align: center;

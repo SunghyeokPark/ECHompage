@@ -5,44 +5,44 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Endless Creation 게시판</title>
 <link href="../css/bootstrap.min.css" rel="stylesheet" media="screen">
 <link href="../css/common-style.css" rel="stylesheet" media="screen">
 <link href="../css/page-common-style.css" rel="stylesheet" media="screen">
+<link href="../css/page-photo-style.css" rel="stylesheet" media="screen">
 <script src="../js/jquery-2.1.1.min.js"></script>
+<title>Insert title here</title>
 </head>
 <body>
 	<jsp:include page="../header.jsp">
-		<jsp:param name="activeBtn" value="study" />
+		<jsp:param name="activeBtn" value="album" />
 	</jsp:include>
 
-	
+	<div class="content-wrapper">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-2 left-content">
 				<div class="page-title">
-					<a href="studyIndex.do"><span>스터디</span></a>
+					<a href="photoIndex.do"><span>사진기록</span></a>
 				</div>
 				
 				<div class="page-board-list-wrapper">
 					<ul class="page-board-list">
-						<li class="active"><a href="#"><span class="glyphicon glyphicon-chevron-right list-bullet"></span> 늅늅</a></li>
-						<li><a href="#"><span class="glyphicon glyphicon-chevron-right list-bullet"></span> SOS</a></li>
-						<li><a href="#"><span class="glyphicon glyphicon-chevron-right list-bullet"></span> Tip&Tech</a></li>
-						<li><a href="#"><span class="glyphicon glyphicon-chevron-right list-bullet"></span> 쩔좀 굽신굽신</a></li>
+						<li class="active"><a href="#"><span class="glyphicon glyphicon-chevron-right list-bullet"></span> 2014</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-chevron-right list-bullet"></span> 2013</a></li>
 					</ul>
 				</div>
-				
 			</div>
 			
 			<div class="col-md-10 right-content">
-				여기엔 내용이 들어갈겁니다.
+				<div class="row">
+					
+				</div>
 			</div>
 		</div>
 	</div>
+	</div>
 
 	<jsp:include page="../footer.jsp" />
-	
 	<script src="../js/bootstrap.min.js"></script>
 	<script src="../js/resizeContentHeight.js"></script>
 </body>

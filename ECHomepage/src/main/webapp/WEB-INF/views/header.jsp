@@ -8,7 +8,8 @@
 	  $('[data-toggle="popover"]').popover()
 	})
 </script>
-<div class="navbar navbar-inverse navbar-fixed-top">
+
+<div class="navbar navbar-inverse navbar-fixed-top header">
 	<div class="container">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -28,7 +29,7 @@
 				<li <c:if test="${param.activeBtn == 'members'}">class="active"</c:if>>
 					<a href="#">회원들</a></li>
 				<li <c:if test="${param.activeBtn == 'album'}">class="active"</c:if>>
-					<a href="#">사진기록</a></li>
+					<a href="${pageContext.request.contextPath}/photo/photoIndex.do">사진기록</a></li>
 				<li <c:if test="${param.activeBtn == 'board'}">class="active"</c:if>>
 					<a href="${pageContext.request.contextPath}/board/boardIndex.do">게시판</a></li>
 				<li <c:if test="${param.activeBtn == 'study'}">class="active"</c:if>>
@@ -83,8 +84,7 @@
 			      		
 			      		<div class="row">
 			      			<div class="col-xs-12" align="center">
-			      				<p><a href="#" class="label-small">아이디 찾기</a></p>
-			      				<p><a href="#" class="label-small">비밀번호 찾기</a></p>
+			      				<p><a href="#" class="label-small">아이디/비밀번호 찾기</a></p>
 			      			</div>
 			      		</div>
 			      	</form>

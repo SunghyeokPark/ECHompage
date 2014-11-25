@@ -58,4 +58,8 @@ public class HomeController {
 	public String photoIndex(){
 		return "photo/photoIndex";
 	}
+	@RequestMapping(value = "/photo/photo.do", method = RequestMethod.GET)
+	public String photo(){
+		return "photo/photo";
+	}
 }
