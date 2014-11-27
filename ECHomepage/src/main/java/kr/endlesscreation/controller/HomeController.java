@@ -62,4 +62,8 @@ public class HomeController {
 	public String membersIndex(){
 		return "members/membersIndex";
 	}
+	@RequestMapping(value = "/photo/photo.do", method = RequestMethod.GET)
+	public String photo(){
+		return "photo/photo";
+	}
 }

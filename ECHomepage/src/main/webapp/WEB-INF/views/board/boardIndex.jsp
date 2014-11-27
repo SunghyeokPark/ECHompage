@@ -1,9 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Endless Creation 게시판</title>
 <link href="../css/bootstrap.min.css" rel="stylesheet" media="screen">
 <link href="../css/common-style.css" rel="stylesheet" media="screen">
@@ -51,5 +52,6 @@
 	<jsp:include page="../footer.jsp" />
 	
 	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/resizeContentHeight.js"></script>
 </body>
 </html>
