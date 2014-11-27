@@ -3,7 +3,7 @@
  */
 
 $(document).ready(function() {
-	resizeRightContent();
+//	resizeRightContent();
 
 	window.onresize = function() {
 		resizeRightContent();
