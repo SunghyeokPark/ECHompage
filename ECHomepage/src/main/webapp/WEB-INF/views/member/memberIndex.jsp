@@ -35,7 +35,20 @@
 			</div>
 			
 			<div class="col-md-10 right-content">
-				여기엔 내용이 들어갈겁니다.
+			
+				<div class="col-md-6">
+		
+				<form role="form">
+					<div class="form-group">
+						<label for="exampleInputPassword1">비밀번호를 입력하세요 ^_^</label> 
+						<input type="password" class="form-control" id="exampleInputPassword1"  placeholder="Password">
+					</div>
+					<button type="submit" class="btn btn-default">확인</button>
+				</form>
+		
+</div>
+
+
 			</div>
 		</div>
 	</div>

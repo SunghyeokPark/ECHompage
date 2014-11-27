@@ -20,6 +20,7 @@
 
 	<div class="container">
 		<div class="row">
+		
 			<div class="col-md-2 left-content">
 				<div class="page-title">
 					<a href="boardIndex.do"><span>사진기록</span></a>
@@ -35,19 +36,6 @@
 
 			</div>
 			<div class="col-md-10 right-content">
-				<div class="row">
-					<form class="form-inline" role="form">
-						<div class="form-group">
-							<div class=" col-lg-12">
-								<button type="submit" class="btn btn-default">글작성</button>
-								
-							</div>
-						</div>
-					</form>
-				</div>
-				
-				
-
 				<div class="row">
 					<div class="col-sm-6 col-md-3">
 						<a href="photo.do" class="thumbnail"> <img
@@ -202,25 +190,31 @@
 				<!--검색창 끝 -->
 
 				<!--페이지네이션인가뭔가 그건가 -->
+				<div class="text-center">
 				<ul class="pagination">
 					<li><a href="#">«</a></li>
 					<li><a href="#">1</a></li>
 					<li><a href="#">2</a></li>
 					<li><a href="#">3</a></li>
 					<li><a href="#">4</a></li>
+
 					<li><a href="#">5</a></li>
 					<li><a href="#">6</a></li>
 					<li><a href="#">7</a></li>
 					<li><a href="#">8</a></li>
 					<li><a href="#">9</a></li>
 					<li><a href="#">10</a></li>
+
 					<li><a href="#">»</a></li>
 				</ul>
+		</div>
 			</div>
 		</div>
 	</div>
 
+
 		<jsp:include page="../footer.jsp" />
+
 		<script src="../js/bootstrap.min.js"></script>
 </body>
 </html>

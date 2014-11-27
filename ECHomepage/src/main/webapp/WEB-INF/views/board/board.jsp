@@ -193,6 +193,7 @@
 				<!-- /.row -->
 
 
+				<div class="text-center">
 				<ul class="pagination">
 					<li><a href="#">«</a></li>
 					<li><a href="#">1</a></li>
@@ -209,6 +210,7 @@
 
 					<li><a href="#">»</a></li>
 				</ul>
+		</div>
 			</div>
 		</div>
 
