@@ -62,7 +62,7 @@
 			      		<div class="form-group">
 			      			<label for="memberId" class="col-xs-2 control-label">ID</label>
 							<div class="col-xs-10">
-								<input type="password" id="memberId" class="form-control"/>
+								<input type="text" id="memberId" class="form-control"/>
 							</div>
 			      		</div>
 			      		<div class="form-group">

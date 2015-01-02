@@ -53,27 +53,27 @@
 								<ul class="notice-list">
 									<li>
 										<h4 class="ellipse"><a href="#">이건 공지사항의 타이틀이 되겠는데 길게 써볼려구요...</a></h4>
-										<p class="text-right"><span class="notice-date">2014-11-19</span></p>
+										<p class="text-right"><span class="notice-writer">20기 신지혜</span> <span class="notice-date">2014-11-19</span></p>
 									</li>
 									
 									<li>
 										<h4 class="ellipse"><a href="#">이건 공지사항의 타이틀이 되겠</a></h4>
-										<p class="text-right"><span class="notice-date">2014-11-19</span></p>
+										<p class="text-right"><span class="notice-writer">20기 신지혜</span> <span class="notice-date">2014-11-19</span></p>
 									</li>
 									
 									<li>
 										<h4 class="ellipse"><a href="#">이건 공지사항의 타이틀이 되겠는데요</a></h4>
-										<p class="text-right"><span class="notice-date">2014-11-19</span></p>
+										<p class="text-right"><span class="notice-writer">20기 신지혜</span> <span class="notice-date">2014-11-19</span></p>
 									</li>
 									
 									<li>
 										<h4 class="ellipse"><a href="#">이건 공지사항의 타이틀이 되고싶다 그런데 되려면 어떻게해야하는거야???</a></h4>
-										<p class="text-right"><span class="notice-date">2014-11-19</span></p>
+										<p class="text-right"><span class="notice-writer">20기 신지혜</span> <span class="notice-date">2014-11-19</span></p>
 									</li>
 									
 									<li>
 										<h4 class="ellipse"><a href="#">이건 공지사항의 타이틀이 되겠어요 어떻게나오려나?</a></h4>
-										<p class="text-right"><span class="notice-date">2014-11-19</span></p>
+										<p class="text-right"><span class="notice-writer">20기 신지혜</span> <span class="notice-date">2014-11-19</span></p>
 									</li>
 								</ul>
 							</div>
