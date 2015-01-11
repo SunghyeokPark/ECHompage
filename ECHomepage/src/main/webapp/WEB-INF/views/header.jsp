@@ -27,7 +27,7 @@
 				<li <c:if test="${param.activeBtn == 'introduction'}">class="active"</c:if>>
 					<a href="#">소개</a></li>
 				<li <c:if test="${param.activeBtn == 'members'}">class="active"</c:if>>
-					<a href="#">회원들</a></li>
+					<a href="${pageContext.request.contextPath}/members/membersIndex.do">회원들</a></li>
 				<li <c:if test="${param.activeBtn == 'album'}">class="active"</c:if>>
 					<a href="${pageContext.request.contextPath}/photo/photoIndex.do">사진기록</a></li>
 				<li <c:if test="${param.activeBtn == 'board'}">class="active"</c:if>>
@@ -38,8 +38,14 @@
 				<li><a href="${pageContext.request.contextPath}/admin/adminIndex.do"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span></a></li>
 				<li><a href="#" tabindex="0" data-toggle="popover" data-trigger="click"
 						data-placement="bottom" data-html="true"
-						data-content='<form class="form-inline"><div class="form-group"><div class="col-sm-12 col-xs-9"><input type="text" class="form-control input-sm" /></div></div><button class="btn btn-default input-sm"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button></div></form>'>
-						<span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>
+						data-content='<div class="row"><div class="col-xs-12"><div class="input-group">
+							<input type="text" class="form-control"> <span class="input-group-btn">
+								<button class="btn btn-default" type="button">
+									<span class="glyphicon glyphicon-search"></span>
+								</button></span></div></div></div>'>
+						<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+					</a>
+				</li>
 			</ul>
 			
 		</div>

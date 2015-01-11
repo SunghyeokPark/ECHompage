@@ -31,6 +31,10 @@ public class HomeController {
 	public String board(){
 		return "board/board";
 	}
+	@RequestMapping(value = "/board/boardList.do", method = RequestMethod.GET)
+	public String boardList(){
+		return "board/boardList";
+	}
 	@RequestMapping(value = "/board/boardWrite.do", method = RequestMethod.GET)
 	public String boardWrite(){
 		return "board/boardWrite";
@@ -38,6 +42,10 @@ public class HomeController {
 	@RequestMapping(value = "/study/studyIndex.do", method = RequestMethod.GET)
 	public String studyIndex(){
 		return "study/studyIndex";
+	}
+	@RequestMapping(value = "/study/sosList.do", method = RequestMethod.GET)
+	public String sosList(){
+		return "study/sosList";
 	}
 	@RequestMapping(value = "/member/memberIndex.do", method = RequestMethod.GET)
 	public String memberIndex(){
@@ -47,9 +55,21 @@ public class HomeController {
 	public String adminIndex(){
 		return "admin/adminIndex";
 	}
+	@RequestMapping(value = "/admin/adminMember.do", method = RequestMethod.GET)
+	public String adminMember(){
+		return "admin/adminMember";
+	}
+	@RequestMapping(value = "/admin/adminBoard.do", method = RequestMethod.GET)
+	public String adminBoard(){
+		return "admin/adminBoard";
+	}
 	@RequestMapping(value = "/photo/photoIndex.do", method = RequestMethod.GET)
 	public String photoIndex(){
 		return "photo/photoIndex";
+	}
+	@RequestMapping(value = "/photo/photoList.do", method = RequestMethod.GET)
+	public String photoList(){
+		return "photo/photoList";
 	}
 	@RequestMapping(value = "/members/membersIndex.do", method = RequestMethod.GET)
 	public String membersIndex(){

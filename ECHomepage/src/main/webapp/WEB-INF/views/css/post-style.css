@@ -1,0 +1,93 @@
+@CHARSET "UTF-8";
+
+
+.post-info .title, .post-context .title, .post-comments .title {
+	margin-top: 1px;
+	margin-bottom: 5px;
+}
+
+.post-info p {
+	color: #c1c1c1;
+	font-size: 0.9em;
+}
+
+.post-info .date {
+	margin-left: 5px;
+	margin-right: 20px;
+}
+
+.post-info .writer {
+	color: #6e6e6e;
+	font-weight: bold;
+}
+
+.post-info .post-edit-btn{
+	margin-left: 3px;
+	margin-right: 3px;
+	color: gray;
+}
+
+.post-info .good.active .count {
+	color: rgb(245, 110, 110);
+}
+
+
+.post-context .context{
+	padding: 5px;
+	min-height: 100px;
+}
+
+.post-comments form,
+.post-comments .comments {
+	padding: 5px;
+}
+
+
+
+/* .form-control-feedback {
+	top: 20px;
+	color: red;
+} */
+
+
+
+.comment-list {
+	padding: 5px;
+}
+
+.comment-list .panel {
+	margin-bottom: 16px;
+}
+
+.comment-list .panel-default {
+	border-color: #e9e9e9;
+}
+
+.comment-list .panel-footer {
+	background-color: #fff;
+	border-top: none;
+	padding-top: 5px;
+}
+
+.comment-list .info {
+	font-size: 0.8em;
+	margin: 0px;
+	color: #c1c1c1;
+}
+
+.comment-list .comment-writer {
+	font-weight: bold;
+	color: #6e6e6e;
+}
+
+.comment-list .comment-date {
+	margin-right: 15px;
+}
+
+.comment-list .comment-edit {
+	color: #000;
+}
+
+.comment-list .comment-delete {
+	color: #ff0000;
+}

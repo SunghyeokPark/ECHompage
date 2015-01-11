@@ -1,5 +1,5 @@
 @CHARSET "UTF-8";
-ul, menu, dir {
+/* ul, menu, dir {
 display: block;
 list-style-type: none;
 -webkit-margin-before: 1em;
@@ -7,4 +7,18 @@ list-style-type: none;
 -webkit-margin-start: 0px;
 -webkit-margin-end: 0px;
 -webkit-padding-start: 40px;
+} */
+
+.member {
+	padding: 10px;
+}
+
+.member ul {
+	display: block;
+	list-style-type: none;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 0px;
 }

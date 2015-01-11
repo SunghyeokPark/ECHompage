@@ -29,8 +29,8 @@
 					
 					<div class="page-board-list-wrapper">
 						<ul class="page-board-list">
-							<li class="active"><a href="#"><span class="glyphicon glyphicon-chevron-right list-bullet"></span> 회원관리</a></li>
-							<li><a href="#"><span class="glyphicon glyphicon-chevron-right list-bullet"></span> 게시판관리</a></li>
+							<li><a href="adminMember.do"><span class="glyphicon glyphicon-chevron-right list-bullet"></span> 회원관리</a></li>
+							<li><a href="adminBoard.do"><span class="glyphicon glyphicon-chevron-right list-bullet"></span> 게시판관리</a></li>
 						</ul>
 					</div>
 					

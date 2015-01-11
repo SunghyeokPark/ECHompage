@@ -1,0 +1,115 @@
+@CHARSET "UTF-8";
+
+/* bootstrap overriding */
+
+
+.carousel-indicators {
+	position: relative;
+	bottom: 0px;
+	left: 0;
+	z-index: 15;
+	padding-left: 0;
+	margin-left: 0;
+	text-align: left;
+	list-style: none;
+}
+
+.carousel-control {
+	left: 0;
+	width: 15%;
+	font-size: 13px;
+	text-shadow: none;
+	filter: none;
+	opacity: .5;
+}
+
+.carousel-control.left {
+	top: -87px;
+	background-image: none;
+	background-image: none;
+	background-image: none;
+	background-image: none;
+	filter: none;
+	background-repeat: no-repeat;
+}
+
+.carousel-control.right {
+	top: -87px;
+	background-image: none;
+	background-image: none;
+	background-image: none;
+	background-image: none;
+	filter: none;
+	background-repeat: no-repeat;
+}
+
+.carousel-indicators li {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	margin: 1px;
+	text-indent: 0;
+	background-color: inherit;
+	background-color: inherit;
+	border: 0;
+	border-radius: 0px;
+	display: inline-block;
+}
+
+.carousel-indicators .active {
+	width: 80px;
+	height: 80px;
+	margin: 1px;
+	border: 2px solid #ff6332;
+	background-color: inherit;
+}
+
+@media (max-width: 767px){
+	.post-photo-content .photo-view .photo-previewer {
+		height: 280px;
+	}
+}
+@media (min-width: 768px){
+	.post-photo-content .photo-view .photo-previewer {
+		height: 440px;
+	}
+}
+@media (min-width: 992px){
+	.post-photo-content .photo-view .photo-previewer {
+		height: 330px;
+	}
+}
+@media (min-width: 1200px){
+	.post-photo-content .photo-view .photo-previewer {
+		height: 400px;
+	}
+	
+}
+
+.post-photo-content .photo-view .photo-previewer{
+	width: 100%;
+	padding: 3px;
+	background-color:#d4d3d5;
+	text-align: center;
+}
+
+.post-photo-content .photo-view .photo-previewer img {
+    margin: 0 auto;
+    max-width:100% !important;
+    max-height:100% !important;
+    display:block;
+}
+
+.post-photo-content .photo-thumbnails {
+	width: 100%;
+	margin-top: 10px;
+	overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.post-photo-content .photo-thumbnails .photo-thumbnail {
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+}

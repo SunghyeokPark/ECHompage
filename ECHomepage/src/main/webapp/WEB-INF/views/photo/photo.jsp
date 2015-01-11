@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="../css/bootstrap.min.css" rel="stylesheet" media="screen">
 <link href="../css/common-style.css" rel="stylesheet" media="screen">
-<link href="../css/page-common-style.css" rel="stylesheet"
-	media="screen">
+<link href="../css/page-common-style.css" rel="stylesheet" media="screen">
 <link href="../css/page-photo-style.css" rel="stylesheet" media="screen">
-<link href="../css/photo-style.css" rel="stylesheet" media="screen">
+<link href="../css/post-style.css" rel="stylesheet" media="screen">
+<link href="../css/post-photo-style.css" rel="stylesheet" media="screen">
 <script src="../js/jquery-2.1.1.min.js"></script>
 <title>Insert title here</title>
 </head>

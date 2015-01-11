@@ -169,23 +169,58 @@
 								<div>
 									<ul class="lastest-list">
 										<li>
-											<p class="ellipse"><a href="#">뭔데뭔데</a></p>
+											<div class="row">
+												<div class="col-md-7 col-lg-8">
+													<p class="ellipse"><a href="#">글이지롱 글글글 최신글 이이ㅏㄹ너ㅣ아럼ㄴ;ㅣㅏㅇ러미;나어리;마넝길게길</a></p>
+												</div>
+												<div class="col-md-5 col-lg-4">
+													<p class="text-right"><span class="writer">20기 신지혜</span> <span class="date">2014-11-19</span></p>
+												</div>
+											</div>
 										</li>
 										
 										<li>
-											<p class="ellipse"><a href="#">이것도 글글글</a></p>
+											<div class="row">
+												<div class="col-md-7 col-lg-8">
+													<p class="ellipse"><a href="#">글이지롱 글글글 최신글 이이ㅏㄹ너ㅣ아럼ㄴ;ㅣㅏㅇ러미;나어리;마넝길게길</a></p>
+												</div>
+												<div class="col-md-5 col-lg-4">
+													<p class="text-right"><span class="writer">20기 신지혜</span> <span class="date">2014-11-19</span></p>
+												</div>
+											</div>
 										</li>
 										
 										<li>
-											<p class="ellipse"><a href="#">글이지롱 글글글 최신글 이이ㅏㄹ너ㅣ아럼ㄴ;ㅣㅏㅇ러미;나어리;마넝길게길</a></p>
+											<div class="row">
+												<div class="col-md-7 col-lg-8">
+													<p class="ellipse"><a href="#">글이지롱 글글글 최신글 이이ㅏㄹ너ㅣ아럼ㄴ;ㅣㅏㅇ러미;나어리;마넝길게길</a></p>
+												</div>
+												<div class="col-md-5 col-lg-4">
+													<p class="text-right"><span class="writer">20기 신지혜</span> <span class="date">2014-11-19</span></p>
+												</div>
+											</div>
 										</li>
 										
 										<li>
-											<p class="ellipse"><a href="#">헤헤헤헤헤ㅔ</a></p>
+											<div class="row">
+												<div class="col-md-7 col-lg-8">
+													<p class="ellipse"><a href="#">글이지롱 글글글 최신글 이이ㅏㄹ너ㅣ아럼ㄴ;ㅣㅏㅇ러미;나어리;마넝길게길</a></p>
+												</div>
+												<div class="col-md-5 col-lg-4">
+													<p class="text-right"><span class="writer">20기 신지혜</span> <span class="date">2014-11-19</span></p>
+												</div>
+											</div>
 										</li>
 										
 										<li>
-											<p class="ellipse"><a href="#">???</a></p>
+											<div class="row">
+												<div class="col-md-7 col-lg-8">
+													<p class="ellipse"><a href="#">글이지롱 글글글 최신글 이이ㅏㄹ너ㅣ아럼ㄴ;ㅣㅏㅇ러미;나어리;마넝길게길</a></p>
+												</div>
+												<div class="col-md-5 col-lg-4">
+													<p class="text-right"><span class="writer">20기 신지혜</span> <span class="date">2014-11-19</span></p>
+												</div>
+											</div>
 										</li>
 									</ul>
 								</div> 
@@ -198,23 +233,58 @@
 								<div>
 									<ul class="lastest-list">
 										<li>
-											<p class="ellipse"><a href="#">뭔데뭔데</a></p>
+											<div class="row">
+												<div class="col-md-7 col-lg-8">
+													<p class="ellipse"><a href="#">글이지롱 글글글 최신글 이이ㅏㄹ너ㅣ아럼ㄴ;ㅣㅏㅇ러미;나어리;마넝길게길</a></p>
+												</div>
+												<div class="col-md-5 col-lg-4">
+													<p class="text-right"><span class="writer">20기 신지혜</span> <span class="date">2014-11-19</span></p>
+												</div>
+											</div>
 										</li>
 										
 										<li>
-											<p class="ellipse"><a href="#">이것도 글글글</a></p>
+											<div class="row">
+												<div class="col-md-7 col-lg-8">
+													<p class="ellipse"><a href="#">글이지롱 글글글 최신글 이이ㅏㄹ너ㅣ아럼ㄴ;ㅣㅏㅇ러미;나어리;마넝길게길</a></p>
+												</div>
+												<div class="col-md-5 col-lg-4">
+													<p class="text-right"><span class="writer">20기 신지혜</span> <span class="date">2014-11-19</span></p>
+												</div>
+											</div>
 										</li>
 										
 										<li>
-											<p class="ellipse"><a href="#">글이지롱 글글글 최신글 이이ㅏㄹ너ㅣ아럼ㄴ;ㅣㅏㅇ러미;나어리;마넝길게길</a></p>
+											<div class="row">
+												<div class="col-md-7 col-lg-8">
+													<p class="ellipse"><a href="#">글이지롱 글글글 최신글 이이ㅏㄹ너ㅣ아럼ㄴ;ㅣㅏㅇ러미;나어리;마넝길게길</a></p>
+												</div>
+												<div class="col-md-5 col-lg-4">
+													<p class="text-right"><span class="writer">20기 신지혜</span> <span class="date">2014-11-19</span></p>
+												</div>
+											</div>
 										</li>
 										
 										<li>
-											<p class="ellipse"><a href="#">헤헤헤헤헤ㅔ</a></p>
+											<div class="row">
+												<div class="col-md-7 col-lg-8">
+													<p class="ellipse"><a href="#">글이지롱 글글글 최신글 이이ㅏㄹ너ㅣ아럼ㄴ;ㅣㅏㅇ러미;나어리;마넝길게길</a></p>
+												</div>
+												<div class="col-md-5 col-lg-4">
+													<p class="text-right"><span class="writer">20기 신지혜</span> <span class="date">2014-11-19</span></p>
+												</div>
+											</div>
 										</li>
 										
 										<li>
-											<p class="ellipse"><a href="#">???</a></p>
+											<div class="row">
+												<div class="col-md-7 col-lg-8">
+													<p class="ellipse"><a href="#">글이지롱 글글글 최신글 이이ㅏㄹ너ㅣ아럼ㄴ;ㅣㅏㅇ러미;나어리;마넝길게길</a></p>
+												</div>
+												<div class="col-md-5 col-lg-4">
+													<p class="text-right"><span class="writer">20기 신지혜</span> <span class="date">2014-11-19</span></p>
+												</div>
+											</div>
 										</li>
 									</ul>
 								</div>

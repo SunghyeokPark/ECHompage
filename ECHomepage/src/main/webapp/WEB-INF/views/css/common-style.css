@@ -148,6 +148,14 @@ body {
   	text-overflow: ellipsis;
 }
 
+.display-inline-block {
+	display:inline-block;
+}
+
+.display-inline {
+	display:inline;
+}
+
 /****************************************************************
 
 							Footer

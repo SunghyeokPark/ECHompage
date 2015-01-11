@@ -8,3 +8,23 @@
 	float: none;
 	margin-left: -5px;
 }
+
+
+.photo a span {
+	padding: 0px;
+}
+
+.photo .title {
+	
+}
+
+.photo .date {
+	font-size: 0.8em;
+	color: #000;
+}
+
+.photo .writer {
+	font-size: 0.8em;
+	color: #000;
+	font-weight: bold;
+}
