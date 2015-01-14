@@ -43,9 +43,17 @@ public class HomeController {
 	public String studyIndex(){
 		return "study/studyIndex";
 	}
+	@RequestMapping(value = "/study/sosIndex.do", method = RequestMethod.GET)
+	public String sosIndex(){
+		return "study/sosIndex";
+	}
 	@RequestMapping(value = "/study/sosList.do", method = RequestMethod.GET)
 	public String sosList(){
 		return "study/sosList";
+	}
+	@RequestMapping(value = "/study/sos.do", method = RequestMethod.GET)
+	public String sos(){
+		return "study/sos";
 	}
 	@RequestMapping(value = "/member/memberIndex.do", method = RequestMethod.GET)
 	public String memberIndex(){

@@ -16,12 +16,18 @@ function resizeRightContent() {
 	if (wWidth < 992) {
 		var wHeight = $(window).height();
 		var cHeight = $("div.right-content").outerHeight();
+		
+		console.log("wHeight: " + wHeight);
+		console.log("cHeight: " + cHeight);
 
 		if (wHeight > cHeight) {
-			var hHeight = $('div.header').outerHeight();
+			console.log("wHeight > cHeight");
+			
 			var lHeight = $('div.left-content').outerHeight();
 
-			cHeight = wHeight - hHeight - lHeight;
+			cHeight = wHeight - lHeight;
+			console.log("lHeight: " + lHeight);
+			console.log("cHeight: " + cHeight);
 			$("div.right-content").css('height', cHeight + "px");
 		}
 	}
