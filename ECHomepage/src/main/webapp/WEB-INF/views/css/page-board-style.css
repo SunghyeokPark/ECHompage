@@ -12,3 +12,34 @@ border: 6px solid rgb(230,230,230);
 	float: none;
 	margin-left: -5px;
 }
+
+.tag {
+	padding: 3px;
+}
+
+.top-question-list .item .vote {
+	color: gray;
+	text-align: center;
+	margin: 1px;
+}
+
+.top-question-list .item .answer {
+	color: #ff7a74;
+	text-align: center;
+	margin: 1px;
+}
+
+.top-question-list .item .view {
+	color: #000;
+	text-align: center;
+	margin: 1px;
+}
+
+.top-question-list .item-info {
+	margin: 0px;
+}
+
+.top-question-list h4 {
+	margin-top: 1px;
+	margin-bottom: 15px;
+}
