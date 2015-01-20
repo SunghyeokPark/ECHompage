@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,11 +8,13 @@
 <title>Insert title here</title>
 <link href="../css/bootstrap.min.css" rel="stylesheet" media="screen">
 <link href="../css/common-style.css" rel="stylesheet" media="screen">
-<link href="../css/page-common-style.css" rel="stylesheet" media="screen">
+<link href="../css/page-common-style.css" rel="stylesheet"
+	media="screen">
 <script src="../js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="../addon/ckeditor/ckeditor.js" ></script>
 </head>
 <body>
-<jsp:include page="../header.jsp">
+	<jsp:include page="../header.jsp">
 		<jsp:param name="activeBtn" value="board" />
 	</jsp:include>
 	<div class="container">
@@ -36,25 +38,37 @@
 				</div>
 
 			</div>
+			<div class="col-md-10 right-content">
+			<div class="row">
+					<textarea id="editor" name="editor"
+						style="width: 100%; height: 200px;"></textarea>
+					<script type="text/javascript">
+						//<![CDATA[
+						CKEDITOR.replace( 'editor');
+						//]]>
+					</script>
+
+				</div>
+			</div>
 		</div>
-		
-		
-		
-		
-		
-		
-		
-	
+
+
+
+
+
+
+
+
 	</div>
-			
-			
-			
-			
-			
 
 
-<jsp:include page="../footer.jsp" />
 
-		<script src="../js/bootstrap.min.js"></script>
+
+
+
+
+	<jsp:include page="../footer.jsp" />
+
+	<script src="../js/bootstrap.min.js"></script>
 </body>
 </html>
