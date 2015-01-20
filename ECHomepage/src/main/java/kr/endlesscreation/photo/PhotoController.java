@@ -1,4 +1,4 @@
-package kr.endlesscreation.board;
+package kr.endlesscreation.photo;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

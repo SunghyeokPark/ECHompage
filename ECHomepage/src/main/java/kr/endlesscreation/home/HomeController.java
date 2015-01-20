@@ -42,10 +42,5 @@ public class HomeController {
 		return "study/sos";
 	}
 	
-
-	@RequestMapping(value = "/members/membersIndex.do", method = RequestMethod.GET)
-	public String membersIndex(){
-		return "members/membersIndex";
-	}
 	
 }
