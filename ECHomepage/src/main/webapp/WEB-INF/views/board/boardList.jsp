@@ -29,7 +29,7 @@
 					<ul class="page-board-list">
 						<li><a href="#">
 							<span class="glyphicon glyphicon-chevron-right list-bullet"></span> 공지사항
-						</a></li>
+						</a></li> 
 						<li class="active"><a href="boardList.do">
 							<span class="glyphicon glyphicon-chevron-right list-bullet"></span> 자유게시판
 						</a></li>
