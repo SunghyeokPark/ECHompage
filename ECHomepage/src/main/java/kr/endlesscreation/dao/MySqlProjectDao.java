@@ -1,4 +1,4 @@
-package spms.dao;
+/*package kr.endlesscreation.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -59,4 +59,4 @@ public class MySqlProjectDao implements ProjectDao {
 			sqlSession.close();
 		}
 	}
-}
+}*/
