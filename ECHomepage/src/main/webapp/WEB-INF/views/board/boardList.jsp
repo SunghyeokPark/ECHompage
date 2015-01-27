@@ -11,7 +11,7 @@
 	media="screen">
 <link href="../css/page-board-style.css" rel="stylesheet" media="screen">
 <script src="../js/jquery-2.1.1.min.js"></script>
-<title>수비니가만들었지롱!</title>
+<title>글목록</title>
 
 </head>
 <body>

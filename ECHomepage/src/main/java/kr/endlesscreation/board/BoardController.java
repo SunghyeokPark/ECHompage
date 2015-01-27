@@ -26,5 +26,20 @@ public class BoardController {
 	public String boardWrite(){
 		return "board/boardWrite";
 	}
+	
+	@RequestMapping(value = "/board/intro.do", method = RequestMethod.GET)
+	public String intro(){
+		return "board/intro";
+	}
+	
+	@RequestMapping(value = "/board/professor.do", method = RequestMethod.GET)
+	public String professor(){
+		return "professor/intro";
+	}
+	
+	@RequestMapping(value = "/board/president.do", method = RequestMethod.GET)
+	public String president(){
+		return "president/intro";
+	}
 
 }
