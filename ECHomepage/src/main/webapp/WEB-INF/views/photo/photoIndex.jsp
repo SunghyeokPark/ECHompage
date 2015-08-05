@@ -23,7 +23,7 @@
 
 			<div class="col-md-2 left-content">
 				<div class="page-title">
-					<a href="boardIndex.do"><span>사진기록</span></a>
+					<a href="photoIndex.do"><span>사진기록</span></a>
 				</div>
 
 

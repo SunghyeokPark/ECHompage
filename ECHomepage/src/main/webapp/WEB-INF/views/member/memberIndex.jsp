@@ -14,7 +14,7 @@
 </head>
 <body>
 	<jsp:include page="../header.jsp">
-		<jsp:param name="activeBtn" value="home" />
+		<jsp:param name="activeBtn" value="members" />
 	</jsp:include>
 
 	

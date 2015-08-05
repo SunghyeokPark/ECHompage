@@ -25,7 +25,7 @@
 				<li <c:if test="${param.activeBtn == 'home'}">class="active"</c:if>>
 					<a href="${pageContext.request.contextPath}/">Home</a></li>
 				<li <c:if test="${param.activeBtn == 'introduction'}">class="active"</c:if>>
-					<a href="#">소개</a></li>
+					<a href="${pageContext.request.contextPath}/intro/introIndex.do">소개</a></li>
 				<li <c:if test="${param.activeBtn == 'members'}">class="active"</c:if>>
 					<a href="${pageContext.request.contextPath}/members/membersIndex.do">회원들</a></li>
 				<li <c:if test="${param.activeBtn == 'album'}">class="active"</c:if>>
@@ -84,7 +84,7 @@
 			      		</div>
 			      		<div class="form-group">	
 			      			<div class="col-xs-12">
-			      				<button type="button" class="form-control btn btn-default">Sign Up</button>
+			      				<a href="sign/signUp.do" class="form-control btn btn-default" role="button">Sign Up</a>
 			      			</div>
 			      		</div>
 			      		

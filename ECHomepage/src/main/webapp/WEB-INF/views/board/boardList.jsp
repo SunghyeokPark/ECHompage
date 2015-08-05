@@ -11,7 +11,7 @@
 	media="screen">
 <link href="../css/page-board-style.css" rel="stylesheet" media="screen">
 <script src="../js/jquery-2.1.1.min.js"></script>
-<title>글목록</title>
+<title>자유게시판</title>
 
 </head>
 <body>
@@ -27,13 +27,13 @@
 
 				<div class="page-board-list-wrapper">
 					<ul class="page-board-list">
-						<li><a href="#">
+						<li><a href="boardNotice.do">
 							<span class="glyphicon glyphicon-chevron-right list-bullet"></span> 공지사항
 						</a></li> 
 						<li class="active"><a href="boardList.do">
 							<span class="glyphicon glyphicon-chevron-right list-bullet"></span> 자유게시판
 						</a></li>
-						<li><a href="#">
+						<li><a href="boardWork.do">
 							<span class="glyphicon glyphicon-chevron-right list-bullet"></span> 작품게시판
 						</a></li>
 					</ul>
@@ -44,8 +44,8 @@
 
 			<div class="col-md-10 right-content">
 				<div class="row">
-					<div class="col-md-12">
-						<button class="btn btn-default pull-right">글쓰기</button>
+					<div class="col-md-12">						
+						<a href="boardWrite.do" class="btn btn-default pull-right">글쓰기</a>
 					</div>
 				</div>
 				<div class="empty-content"></div>
@@ -68,15 +68,15 @@
 								<tr>
 									<td>10</td>
 									<td>
-										<a href="board.do">오늘도 꿈을 꿨어...^^</a>
+										<a href="board.do">제목</a>
 										<div class="visible-xs">
-											<span class="writer">니생각</span>
+											<span class="writer">글쓴이</span>
 											<span class="date">2003.12.31</span>
 											<span class="vote">10</span>
 											<span class="views">521</span> 
 										</div>
 									</td>
-									<td class="hidden-xs">니생각</td>
+									<td class="hidden-xs">글쓴이</td>
 									<td class="hidden-xs">2003.12.31.</td>
 									<td class="hidden-xs">10</td>
 									<td class="hidden-xs">521</td>
@@ -84,72 +84,72 @@
 
 								<tr>
 									<td>9</td>
-									<td>오늘도 꿈을 꿨어...^^</td>
-									<td class="hidden-xs">니생각</td>
+									<td>제목</td>
+									<td class="hidden-xs">글쓴이</td>
 									<td class="hidden-xs">2003.12.31.</td>
 									<td class="hidden-xs">10</td>
 									<td class="hidden-xs">521</td>
 								</tr>
 								<tr>
 									<td>8</td>
-									<td>오늘도 꿈을 꿨어...^^</td>
-									<td class="hidden-xs">니생각</td>
+									<td>제목</td>
+									<td class="hidden-xs">글쓴이</td>
 									<td class="hidden-xs">2003.12.31.</td>
 									<td class="hidden-xs">10</td>
 									<td class="hidden-xs">521</td>
 								</tr>
 								<tr>
 									<td>7</td>
-									<td>오늘도 꿈을 꿨어...^^</td>
-									<td class="hidden-xs">니생각</td>
+									<td>제목</td>
+									<td class="hidden-xs">글쓴이</td>
 									<td class="hidden-xs">2003.12.31.</td>
 									<td class="hidden-xs">10</td>
 									<td class="hidden-xs">521</td>
 								</tr>
 								<tr>
 									<td>6</td>
-									<td>오늘도 꿈을 꿨어...^^</td>
-									<td class="hidden-xs">니생각</td>
+									<td>제목</td>
+									<td class="hidden-xs">글쓴이</td>
 									<td class="hidden-xs">2003.12.31.</td>
 									<td class="hidden-xs">10</td>
 									<td class="hidden-xs">521</td>
 								</tr>
 								<tr>
 									<td>5</td>
-									<td>오늘도 꿈을 꿨어...^^</td>
-									<td class="hidden-xs">니생각</td>
+									<td>제목</td>
+									<td class="hidden-xs">글쓴이</td>
 									<td class="hidden-xs">2003.12.31.</td>
 									<td class="hidden-xs">10</td>
 									<td class="hidden-xs">521</td>
 								</tr>
 								<tr>
 									<td>4</td>
-									<td>오늘도 꿈을 꿨어...^^</td>
-									<td class="hidden-xs">니생각</td>
+									<td>제목</td>
+									<td class="hidden-xs">글쓴이</td>
 									<td class="hidden-xs">2003.12.31.</td>
 									<td class="hidden-xs">10</td>
 									<td class="hidden-xs">521</td>
 								</tr>
 								<tr>
 									<td>3</td>
-									<td>오늘도 꿈을 꿨어...^^</td>
-									<td class="hidden-xs">니생각</td>
+									<td>제목</td>
+									<td class="hidden-xs">글쓴이</td>
 									<td class="hidden-xs">2003.12.31.</td>
 									<td class="hidden-xs">10</td>
 									<td class="hidden-xs">521</td>
 								</tr>
 								<tr>
 									<td>2</td>
-									<td>오늘도 꿈을 꿨어...^^</td>
-									<td class="hidden-xs">니생각</td>
+									<td>제목</td>
+									<td class="hidden-xs">글쓴이</td>
 									<td class="hidden-xs">2003.12.31.</td>
 									<td class="hidden-xs">10</td>
 									<td class="hidden-xs">521</td>
 								</tr>
 								<tr>
 									<td>1</td>
-									<td>오늘도 꿈을 꿨어...^^</td>
-									<td class="hidden-xs">니생각</td>
+									<td>제목</td>
+									<td class="hidden-xs">글쓴이</td>
 									<td class="hidden-xs">2003.12.31.</td>
 									<td class="hidden-xs">10</td>
 									<td class="hidden-xs">521</td>
@@ -165,7 +165,7 @@
 				
 				<div class="row">
 					<div class="col-md-12">
-						<button class="btn btn-default pull-right">글쓰기</button>
+						<a href="boardWrite.do" class="btn btn-default pull-right">글쓰기</a>
 					</div>
 				</div>
 				<div class="empty-content"></div>
@@ -195,7 +195,6 @@
 						<!-- /input-group -->
 					</div>
 					<!-- /.col-lg-6 -->
-				</div>
 				<!-- /.row -->
 
 

@@ -28,7 +28,7 @@
 								<h1><a href=".">Endless Creation</a></h1>
 							</div>
 							<div class="col-sm-3 intro-btn">
-								<h3><a href="#">소개 <span class="glyphicon glyphicon-chevron-right index-bullet-style"></span></a></h3>
+								<h3><a href="intro/introIndex.do">소개 <span class="glyphicon glyphicon-chevron-right index-bullet-style"></span></a></h3>
 							</div>
 						</div>
 					</div>
@@ -46,7 +46,7 @@
 					<div class="col-md-10 notice-content">
 						<div class="row">
 							<div class="col-sm-4">
-								<h3><a href="#">공지사항 <span class="glyphicon glyphicon-chevron-right list-bullet index-bullet-style"></span></a></h3>
+								<h3><a href="board/boardNotice.do">공지사항 <span class="glyphicon glyphicon-chevron-right list-bullet index-bullet-style"></span></a></h3>
 							</div>
 						
 							<div class="col-sm-8">
@@ -142,10 +142,10 @@
 							<div class="col-sm-3">
 								<div class="row">
 									<div class="col-xs-6 col-sm-12 etc-btn etc-btn-yellow">
-										<h3><a href="#">SOS <span class="glyphicon glyphicon-chevron-right index-bullet-style"></span></a></h3>
+										<h3><a href="study/sosIndex.do">SOS <span class="glyphicon glyphicon-chevron-right index-bullet-style"></span></a></h3>
 									</div>
 									<div class="col-xs-6 col-sm-12 etc-btn etc-btn-blue">
-										<h3><a href="#">자유게시판 <span class="glyphicon glyphicon-chevron-right index-bullet-style"></span></a></h3>
+										<h3><a href="board/boardList.do">자유게시판 <span class="glyphicon glyphicon-chevron-right index-bullet-style"></span></a></h3>
 									</div>
 								</div>
 								

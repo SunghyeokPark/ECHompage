@@ -17,6 +17,11 @@ public class BoardController {
 		return "board/board";
 	}
 	
+	@RequestMapping(value = "/board/boardNotice.do", method = RequestMethod.GET)
+	public String boardNotice(){
+		return "board/boardNotice";
+	}
+	
 	@RequestMapping(value = "/board/boardList.do", method = RequestMethod.GET)
 	public String boardList(){
 		return "board/boardList";
@@ -25,6 +30,11 @@ public class BoardController {
 	@RequestMapping(value = "/board/boardWrite.do", method = RequestMethod.GET)
 	public String boardWrite(){
 		return "board/boardWrite";
+	}
+	
+	@RequestMapping(value = "/board/boardWork.do", method = RequestMethod.GET)
+	public String boardWork(){
+		return "board/boardWork";
 	}
 	
 	@RequestMapping(value = "/board/intro.do", method = RequestMethod.GET)

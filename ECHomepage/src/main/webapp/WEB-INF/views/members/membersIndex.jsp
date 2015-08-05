@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Endless Creation Admin</title>
+<title>Endless 회원들 ㅇㅇ</title>
 <link href="../css/bootstrap.min.css" rel="stylesheet" media="screen">
 <link href="../css/common-style.css" rel="stylesheet" media="screen">
 <link href="../css/page-common-style.css" rel="stylesheet"

@@ -41,6 +41,21 @@ public class HomeController {
 	public String sos(){
 		return "study/sos";
 	}
-	
+	@RequestMapping(value = "/study/studyNew.do", method = RequestMethod.GET)
+	public String studyNew(){
+		return "study/studyNew";
+	}
+	@RequestMapping(value = "/study/studyRequest.do", method = RequestMethod.GET)
+	public String studyRequest(){
+		return "study/studyRequest";
+	}
+	@RequestMapping(value = "/study/studyTNT.do", method = RequestMethod.GET)
+	public String studyTNT(){
+		return "study/studyTNT";
+	}
+	@RequestMapping(value = "/sign/signUp.do", method = RequestMethod.GET)
+	public String signUp(){
+		return "sign/signUp";
+	}
 	
 }

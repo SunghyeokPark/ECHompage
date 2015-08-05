@@ -26,10 +26,10 @@
 				
 				<div class="page-board-list-wrapper">
 					<ul class="page-board-list">
-						<li><a href="#"><span class="glyphicon glyphicon-chevron-right list-bullet"></span> 늅늅</a></li>
+						<li><a href="studyNew.do"><span class="glyphicon glyphicon-chevron-right list-bullet"></span> 늅늅</a></li>
 						<li class="active"><a href="sosIndex.do"><span class="glyphicon glyphicon-chevron-right list-bullet"></span> SOS</a></li>
-						<li><a href="#"><span class="glyphicon glyphicon-chevron-right list-bullet"></span> Tip&Tech</a></li>
-						<li><a href="#"><span class="glyphicon glyphicon-chevron-right list-bullet"></span> 쩔좀 굽신굽신</a></li>
+						<li><a href="studyTNT.do"><span class="glyphicon glyphicon-chevron-right list-bullet"></span> Tip&Tech</a></li>
+						<li><a href="studyRequest.do"><span class="glyphicon glyphicon-chevron-right list-bullet"></span> 쩔좀 굽신굽신</a></li>
 					</ul>
 				</div>
 				
